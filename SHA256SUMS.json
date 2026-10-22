@@ -1,0 +1,74 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "121364f265e5363d32e40b22d9526ed33c90348e67ecd3a39b2477398ad87ff3"
+  },
+  {
+    "path": "scale2xsfx/after-thresholds-255.png",
+    "sha256": "02c0ef919c6c6c43d34a5d60738f07e5dc57e791ae36f1e9fbee8ce0abbf5e15"
+  },
+  {
+    "path": "scale2xsfx/after.png",
+    "sha256": "6e7def416bfe0bca86273e07f5c1f2689a83c1ce9788a51c5f3aefdbac9f4cd0"
+  },
+  {
+    "path": "scale2xsfx/before-thresholds-255.png",
+    "sha256": "43a2f81798fb918eb84640ad276ebe8c90e3661c30dd089f9518d413c243c086"
+  },
+  {
+    "path": "scale2xsfx/before-vs-after.png",
+    "sha256": "19c638c2fa2483bf6a9cf3fe3330ca0b86284b2b78cc0ce1105f262954d53812"
+  },
+  {
+    "path": "scale2xsfx/before.png",
+    "sha256": "43a2f81798fb918eb84640ad276ebe8c90e3661c30dd089f9518d413c243c086"
+  },
+  {
+    "path": "scale2xsfx/cg-reference.png",
+    "sha256": "9ae825f4a5cc0a6b757a6817b912fc8354276504a534a45f01ea1199e3b7f4c7"
+  },
+  {
+    "path": "scale2xsfx/upstream-preset.png",
+    "sha256": "7b147db0fbca7ddf22f985b7319ea6329ef030913b0b0cca0f23b949acdbb7ce"
+  },
+  {
+    "path": "scale2xsfx/validation.json",
+    "sha256": "a59d3f1a3e49bfcb169e33e87a7c25c8c40a818f5bfbb85562c297bfbf4258d4"
+  },
+  {
+    "path": "scale3xsfx/after-thresholds-255.png",
+    "sha256": "b58e99221c603fe0ed29a490d8eb6d40955ca78bd79a24f1594d4bc5656e31f5"
+  },
+  {
+    "path": "scale3xsfx/after.png",
+    "sha256": "6b3d72c2336e6f2cf5a5cb0059349998779d585faf8fd7029029ef82f367b1eb"
+  },
+  {
+    "path": "scale3xsfx/before-thresholds-255.png",
+    "sha256": "b58e99221c603fe0ed29a490d8eb6d40955ca78bd79a24f1594d4bc5656e31f5"
+  },
+  {
+    "path": "scale3xsfx/before-vs-after.png",
+    "sha256": "c3763bcae2579150002a00d7cd597f4f49f6f9735342764e80b00fe06ccdeabf"
+  },
+  {
+    "path": "scale3xsfx/before.png",
+    "sha256": "efe9d022e6ddd61495d600698e19b2e1411d715f7cf906306560055827e0203c"
+  },
+  {
+    "path": "scale3xsfx/cg-reference.png",
+    "sha256": "0ebd280d624ac1dce37965ef19c307c17ecf361610bdda0d282dad1331ec6589"
+  },
+  {
+    "path": "scale3xsfx/upstream-preset.png",
+    "sha256": "cbb82d13d5bf483c57e761473dc38765b7b00b26276a06e66b9d9b0cebdfd7cb"
+  },
+  {
+    "path": "scale3xsfx/validation.json",
+    "sha256": "0b52bc5761311d8c4ace6f206d093ea1c2d70baaa93fecbe7f5c390e68c0c300"
+  },
+  {
+    "path": "Test.png",
+    "sha256": "ac35a4b57ab59d5172a89c1da17ff5f65840e5e2850051b4a01ce8866fe6a078"
+  }
+]

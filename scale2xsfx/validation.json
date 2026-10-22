@@ -1,0 +1,107 @@
+{
+  "shader": "Scale2xSFX",
+  "repository": "libretro/slang-shaders",
+  "baseCommit": "d21f8a5abaabc4ee061b6c81f6f1255e09aab32a",
+  "fixCommit": "90613007b3fa856a4261e8a7d2790db61a0a3ae5",
+  "shaderPath": "edge-smoothing/scalenx/shaders/scale2xSFX.slang",
+  "inputSha256": "ac35a4b57ab59d5172a89c1da17ff5f65840e5e2850051b4a01ce8866fe6a078",
+  "inputSize": [
+    128,
+    64
+  ],
+  "outputSize": [
+    256,
+    128
+  ],
+  "capture": {
+    "runtime": "RetroArch 1.22.2",
+    "runtimeSha256": "81c11b6f24932bf7918f05eee8928035bff3887335fd2a081507c75e9d94d06a",
+    "driver": "glcore",
+    "graphics": [
+      "[INFO] [GLCore] Detecting screen resolution: 1366x768.",
+      "[INFO] [GLCore] Vendor: Intel, Renderer: Intel(R) Graphics.",
+      "[INFO] [GLCore] Version: 4.6.0 - Build 32.0.101.9150.",
+      "[INFO] [GLCore] Using resolution 256x256."
+    ],
+    "frames": 8,
+    "sampling": "nearest",
+    "wrap": "clamp_to_edge",
+    "shaderPasses": 1,
+    "presentationPasses": "omitted in controlled comparisons; upstream preset separately rendered",
+    "defaultParameters": {
+      "YTR": 48,
+      "UTR": 7,
+      "VTR": 6
+    },
+    "probeParameters": {
+      "YTR": 255,
+      "UTR": 255,
+      "VTR": 255
+    }
+  },
+  "before": {
+    "shaderSha256": "01ab09f9818058e82a28427f7a03c394c9227b4452df6e33a1cfdb3dbebb12cc",
+    "outputPixelSha256": "85a309ca835111f3252bd54a57b0b9476a7bd91cb09042e487e4eac15ffe9531"
+  },
+  "after": {
+    "shaderSha256": "a9afc6f9239848e7a52eb8d8f46bbf9485422d428a24ed2d2a1ce5023bd18045",
+    "outputPixelSha256": "82b678b5d3a79fc503abd57cddb65cdcdf71cf1ee803e769cbc616ab1856408c"
+  },
+  "cgReference": {
+    "repository": "libretro/common-shaders",
+    "commit": "9c0d839a19651dffc9898da7673574a20fb39415",
+    "shaderPath": "scalenx/shaders/scale2xSFX.cg",
+    "runtime": "RetroArch 1.9.0",
+    "runtimeSha256": "21bd1ccd3ace5e9f592d03acf3364fc0331f427c09eced76550236f9295b9c33",
+    "driver": "gl",
+    "outputPixelSha256": "37757e7b7f9987648ed1bcd61dd9e16361270768fa7d5fd4c924c35dc079a08b"
+  },
+  "validation": {
+    "name": "slang-scale2xsfx",
+    "beforeAfter": {
+      "sameDimensions": true,
+      "width": 256,
+      "height": 128,
+      "differingPixels": 273,
+      "pixelsOverTolerance": 273,
+      "maxChannelError": 255,
+      "meanAbsoluteChannelError": 0.1745452880859375,
+      "changedPercent": 0.8331298828125
+    },
+    "nativeCgReference": {
+      "sameDimensions": true,
+      "width": 256,
+      "height": 128,
+      "differingPixels": 1,
+      "pixelsOverTolerance": 1,
+      "maxChannelError": 156,
+      "meanAbsoluteChannelError": 0.002838134765625,
+      "changedPercent": 0.0030517578125
+    },
+    "afterThresholdResponse": {
+      "sameDimensions": true,
+      "width": 256,
+      "height": 128,
+      "differingPixels": 982,
+      "pixelsOverTolerance": 982,
+      "maxChannelError": 255,
+      "meanAbsoluteChannelError": 2.8532485961914062,
+      "changedPercent": 2.996826171875
+    },
+    "beforeThresholdResponse": {
+      "sameDimensions": true,
+      "width": 256,
+      "height": 128,
+      "differingPixels": 0,
+      "pixelsOverTolerance": 0,
+      "maxChannelError": 0,
+      "meanAbsoluteChannelError": 0,
+      "changedPercent": 0
+    },
+    "reviewedPixelsUnchanged": true,
+    "interiorMatchesCg": true,
+    "newUpstreamPresetRendered": true,
+    "status": "passed"
+  },
+  "diffImage": "Red encodes the maximum RGBA channel error, with minimum brightness 32/255 for any changed pixel. Black is identical. Metrics have zero tolerance and use the full image."
+}
